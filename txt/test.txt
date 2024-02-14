@@ -1,0 +1,1 @@
+Olá rede!, tudo bem com voces? Instalação: Primeiro, certifique-se de ter todas as bibliotecas instalada. Se ainda não tiver, execute o seguinte comando no terminal:
