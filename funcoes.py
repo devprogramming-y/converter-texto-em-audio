@@ -8,7 +8,7 @@ import darkdetect #detectar modo escuro
 
 def speak(text):
     tts = gTTS(text = text, lang = 'pt-br', slow= False)
-    # subistitua o caminho do arquivo onde voce quer salvar seu audio 
+    # Substitua o caminho do arquivo onde você quer salvar seu áudio 
     filename = 'audio.mp3'
     tts.save(filename)
     playsound(filename)
