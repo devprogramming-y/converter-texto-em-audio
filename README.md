@@ -31,3 +31,4 @@ Instalação: Primeiro, certifique-se de ter todas as bibliotecas instalada. Se 
 pip install -r requirements.txt
 ```
 Depois disso é só executar o arquivo python e tudo deverá estar funcionando! :)
+
