@@ -1,6 +1,6 @@
 
 # Converter texto em áudio 👨‍💻
-_Canal do Youtubee: https://www.youtube.com/@Devprogramming-y
+_Canal do Youtube: https://www.youtube.com/@Devprogramming-y
 <div align="center">
 <img width='150' src="https://avatars.githubusercontent.com/u/159826062?v=4"/>
 </div>
