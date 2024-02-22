@@ -1,0 +1,23 @@
+name: "converter-texto-em-audio"
+description: "Este projeto foi criado para ajudar pessoas que desejavam uma tecnologia de conversão de texto em fala para leitura de livros ou textos"
+author: "devprogramming-y"
+
+            
+runs:
+  using: docker
+  image: docker://devprogramming-y/converter-texto-em-audio@sha256:b613679a0814d9ec772f95d778c35fc5ff1697c493715653c6c712144292c5ad
+
+inputs:
+  github_user_name:
+    description: "github user name"
+    required: true
+  github_token:
+    description: "github token used to fetch the contribution calendar. Default to the action token if empty."
+    required: false
+    default: ${{ github.token }}
+  outputs:
+    required: false
+    description: |
+      Neste projeto eu usei: docx2txt, PyPDF2, PySimpleGUI, python-docx, darkdetect, speech_recognition, playsound, os and gtts.
+      example:
+        outputs:
